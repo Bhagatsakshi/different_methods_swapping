@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
-class hi
+class swapping
 {
 private:
   int a;
 public:
-  hi(int a)
-{
+  swapping(int a)
+ {
     this->a=a;
-  }
-  void swap(hi &obj) 
-{
+ }
+  void swap(swapping &obj) 
+ {
     int temp=this->a;
     this->a=obj.a;
     obj.a=temp;
@@ -21,9 +21,9 @@ public:
 };
 int main()
 {
-  hi obj1(10);
-  hi obj2(20);
-  cout << "Before swapping:"<<endl;
+  swapping obj1(10);
+  swapping obj2(20);
+  cout <<" Before swapping:"<<endl;
   obj1.print();
   obj2.print();
   obj1.swap(obj2);
