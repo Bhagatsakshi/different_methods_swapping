@@ -41,7 +41,7 @@ int main()
     abc a;
     xyz b;
     a.setdata(9);
-    b.setdata(20);
+    b.setdata(2);
     cout<<"before swap"<<endl;
     cout<<a.display()<<"\t";
     cout<<b.display()<<endl;
