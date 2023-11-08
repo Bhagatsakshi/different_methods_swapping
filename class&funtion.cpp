@@ -5,7 +5,7 @@ private:
   int a;
 public:
   swapping(int a) {
-    this->a=a;
+    this->a=a;                         //this pointer stores the address of the object,to enable functions to access the correct object data members.
   }
   void swap(swapping &obj) {
     int temp=this->a;
@@ -25,7 +25,7 @@ int main() {
   cout<<"Before swapping:"<<endl;
   obj1.print();
   obj2.print();
-  swap(obj1,obj2);
+  swap(obj1,obj2);                                       //funtion call
   cout<<"After swapping:"<<endl;
   obj1.print();
   obj2.print();
