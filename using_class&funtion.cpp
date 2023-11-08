@@ -5,7 +5,8 @@ private:
   int a;
 public:
   swapping(int a) {
-    this->a=a;                         //this pointer stores the address of the object,to enable functions to access the correct object data members.
+    this->a=a;                         //this pointer stores the address of the object,
+                                       to enable functions to access the correct object data members.
   }
   void swap(swapping &obj) {
     int temp=this->a;
