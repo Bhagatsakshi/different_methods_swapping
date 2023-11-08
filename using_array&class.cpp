@@ -7,7 +7,7 @@ public:
   swapping(int a) {
     this->a= a;
   }
-  void swap(swapping& obj) {
+  void swap(swapping &obj) {
     int temp[1];
     temp[0] = this->a;
     this->a= obj.a;
